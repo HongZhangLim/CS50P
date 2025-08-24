@@ -2,3 +2,4 @@
 playback = input()
 # Print replaced string
 print(playback.replace(" ", "..."))
+
