@@ -21,3 +21,4 @@ else:
 s = input("Input: ")
 figlet.setFont(font=f)
 print("Output: \n" + figlet.renderText(s))
+
