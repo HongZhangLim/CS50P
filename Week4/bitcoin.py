@@ -14,3 +14,4 @@ response = requests.get("https://rest.coincap.io/v3/assets/bitcoin?apiKey=f82b56
 price = float(response.json()["data"]["priceUsd"])
 amount = price * n
 print(f"${amount:,.4f}")
+
